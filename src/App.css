@@ -30,6 +30,21 @@
 
 
 
+.App {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
