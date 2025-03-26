@@ -62,7 +62,14 @@ function App() {
     <div className="App">
       <h1>User Directory</h1>
 
-      <div className="controls"></div>
+      <div className="controls">
+        <input
+          type="text"
+          placeholder="Search by name or email..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
+      </div>
 
       <div className="user-list">
         {filteredUsers.map((user) => (
