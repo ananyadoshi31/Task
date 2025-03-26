@@ -45,6 +45,26 @@
 
 
 
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.user-card {
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.user-details {
+  margin-top: 20px;
+  background: #e2e8f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
 
 @keyframes App-logo-spin {
   from {
