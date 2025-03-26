@@ -69,6 +69,12 @@ function App() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
+
+        <select onChange={(e) => setSortField(e.target.value)} defaultValue="">
+          <option value="">Sort by</option>
+          <option value="name">Name</option>
+          <option value="email">Email</option>
+        </select>
       </div>
 
       <div className="user-list">
