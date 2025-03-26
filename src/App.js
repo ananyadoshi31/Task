@@ -75,6 +75,14 @@ function App() {
           <option value="name">Name</option>
           <option value="email">Email</option>
         </select>
+
+        <select
+          onChange={(e) => setSortOrder(e.target.value)}
+          defaultValue="asc"
+        >
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
       </div>
 
       <div className="user-list">
