@@ -2,6 +2,7 @@
 import React from "react";
 import "../App.css";
 
+// functional component that will displayed detailed clientInformation
 function UserDetails({ user }) {
   return (
     <div className="user-details">
