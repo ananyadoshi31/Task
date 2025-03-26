@@ -100,7 +100,11 @@ function App() {
         ))}
       </div>
 
-      {selectedUser && <UserDetails user={selectedUser} />}
+      {selectedUser && (
+        <div ref={detailRef}>
+          <UserDetails user={selectedUser} />
+        </div>
+      )}
     </div>
   );
 }
